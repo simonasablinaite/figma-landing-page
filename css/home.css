@@ -5,6 +5,8 @@
 @import "./components/header.css";
 @import "./components/hero.css";
 @import "./components/store.css";
+@import "./components/services.css";
+@import "./components/conversation.css";
 
 @import "./base/layout.css";
 

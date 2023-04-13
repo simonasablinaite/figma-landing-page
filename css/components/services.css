@@ -1,0 +1,40 @@
+.services {
+  margin-left: 20px;
+}
+.services-cards-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.services .text-elements-group {
+  width: 100%;
+}
+
+.card-content img {
+  width: 28px;
+}
+
+.card-content .card-paragraph {
+  font-size: 8px;
+}
+
+.services-cards-wrapper .card:nth-child(2n + 1) {
+  background: linear-gradient(
+      358.27deg,
+      rgba(100, 123, 100, 0.77) -118.86%,
+      rgba(100, 123, 100, 0) 25.62%,
+      rgba(100, 123, 100, 0) 98.53%
+    ),
+    #ffffff;
+  border-radius: 4px;
+}
+
+.services-cards-wrapper .card:nth-child(2) {
+  background-color: #647b64;
+  border-radius: 4px;
+}
+
+.services-cards-wrapper .card:nth-child(3) {
+  display: none;
+}
