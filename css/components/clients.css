@@ -1,0 +1,48 @@
+.clients {
+  overflow: hidden;
+}
+
+.clients-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 233px);
+  gap: 26px;
+}
+.arrows {
+  display: none;
+}
+
+.card-top-side {
+  display: flex;
+}
+
+.client-card {
+  border-radius: 5px;
+  background: linear-gradient(
+      358.27deg,
+      rgba(100, 123, 100, 0.77) -118.86%,
+      rgba(100, 123, 100, 0) 25.62%,
+      rgba(100, 123, 100, 0) 98.53%
+    ),
+    #ffffff;
+  padding: 21px 16px 21px 26px;
+}
+
+.client-image {
+  width: 103px;
+  margin-bottom: 16px;
+}
+
+.card-subtitle {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+
+.client-description {
+  display: flex;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+}
