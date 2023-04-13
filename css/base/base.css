@@ -1,0 +1,57 @@
+.container {
+  padding: 40px 32px;
+  width: 100%;
+}
+
+.align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 5px;
+  padding: 14px 79px 14px 15px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+  box-shadow: 0px 10.0291px 20.0583px rgba(128, 143, 150, 0.19);
+  position: relative;
+}
+
+.text-elements-group .btn svg {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+}
+
+.section-smaller-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: #f3b562;
+}
+
+.section-bigger-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 22px;
+  color: #647b64;
+  margin: 5px 0 26px 0;
+  font-weight: 500;
+}
+
+.section-paragraph {
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 400;
+  color: #4f4f4f;
+  width: 100%;
+}

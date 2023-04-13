@@ -1,0 +1,30 @@
+/* BASE */
+@import "./base/reset.css";
+@import "./base/base.css";
+/* COMPONENTS */
+@import "./components/header.css";
+@import "./components/hero.css";
+@import "./components/store.css";
+
+@import "./base/layout.css";
+
+/* header start */
+/* header end */
+
+/* hero start */
+/* hero end */
+
+/* store start */
+/* store end */
+
+/* services start */
+/* services end */
+
+/* conversation start */
+/* conversation end */
+
+/* clients start */
+/* clients end */
+
+/* footer start */
+/* footer en> */

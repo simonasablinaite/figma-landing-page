@@ -1,0 +1,12 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: none;
+}
+
+.burger-menu .bigger-burger-menu {
+  display: none;
+}
