@@ -1,3 +1,17 @@
-.conversation-image image {
-  width: 280px;
+.conversation {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  /* width: calc((100% - 50px)); */
+  margin: 90px 0 0 -287px;
+  justify-content: space-between;
+}
+
+.conversation-image img {
+  width: 286px;
+  height: 277px;
+}
+
+.conversation .text-elements-group {
+  width: 100%;
 }

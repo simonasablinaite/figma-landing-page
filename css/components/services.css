@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
+  width: calc((100% - 18px));
 }
 
 .services .text-elements-group {
