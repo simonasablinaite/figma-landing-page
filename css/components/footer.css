@@ -49,7 +49,6 @@
   margin-bottom: 24px;
 }
 .references {
-  width: calc((100% - 40px) / 1.5);
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -69,6 +68,7 @@
 textarea {
   resize: none;
 }
+
 .message-textarea {
   padding: 12px 0 0 24px;
   font-size: 14px;
@@ -76,6 +76,14 @@ textarea {
   line-height: 24px;
   color: #4f4f4f;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
 .form-wrapper button {
   margin-top: 28px;
   width: 285px;

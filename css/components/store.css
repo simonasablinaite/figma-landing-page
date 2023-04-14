@@ -2,7 +2,6 @@
   margin-top: 72px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   gap: 42px;
 }
 
@@ -16,6 +15,12 @@
   box-shadow: 0px 3.16301px 16.8694px rgba(155, 148, 148, 0.17);
   border-radius: 4px;
   box-shadow: 0 10px 18px 0px rgba(0, 0, 0, 0.3);
+}
+
+.cards-wrapper .card-content .card-icon {
+  background-color: rgb(221, 40, 12);
+  border-radius: 3px;
+  padding: 5px;
 }
 
 .card-title {
