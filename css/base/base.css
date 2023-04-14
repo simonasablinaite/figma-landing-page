@@ -26,6 +26,10 @@
   position: relative;
 }
 
+/* .btn::after {
+  content: url("http://www.w3.org/2000/svg");
+} */
+
 .text-elements-group .btn svg {
   position: absolute;
   top: 12px;
