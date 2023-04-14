@@ -26,9 +26,12 @@
   position: relative;
 }
 
-/* .btn::after {
-  content: url("http://www.w3.org/2000/svg");
-} */
+.btn::after {
+  content: url("../../img/arrow-right.svg");
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 .text-elements-group .btn svg {
   position: absolute;

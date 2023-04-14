@@ -1,5 +1,6 @@
 .clients {
   overflow: hidden;
+  width: 100%;
 }
 
 .clients-card-wrapper {
@@ -7,6 +8,7 @@
   grid-template-columns: repeat(4, 233px);
   gap: 26px;
 }
+
 .arrows {
   display: none;
 }
