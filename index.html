@@ -263,15 +263,17 @@
    </main>
    <!-- footer start -->
    <footer>
-      <div class="container">
+      <div class="container footer-wrapper">
          <div class="socials-column">
             <img src="./img/logo.png" alt="logo">
             <p class="footer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae nullam
                aliquet</p>
-            <span class="copyright">Copyright © 2021 AWESOME.</span>
-            <span>All rights reserved</span>
+            <div class="copyright-section">
+               <span class="first">Copyright © 2021 AWESOME.</span>
+               <span class="second">All rights reserved</span>
+            </div>
             <socials-icons>
-               <ul>
+               <ul class="social-icons-list">
                   <li>
                      <img src="./img/insta.svg" alt="instagram">
                   </li>
@@ -289,6 +291,7 @@
          </div>
          <div class="references">
             <div class="companys-ref">
+               <h2 class="footer-title">Company</h2>
                <a href="#">lorem ipsum 1</a>
                <a href="#">lorem ipsum 2</a>
                <a href="#">lorem ipsum 3</a>
@@ -296,6 +299,7 @@
                <a href="#">lorem ipsum 5</a>
             </div>
             <div class="supports-ref">
+               <h2 class="footer-title">Support</h2>
                <a href="#">lorem ipsum 6</a>
                <a href="#">lorem ipsum 7</a>
                <a href="#">lorem ipsum 8</a>
@@ -305,10 +309,10 @@
          </div>
          <div class="form-wrapper">
             <form action="submit">
-               <legend class="section-biggest-title">Send message</legend>
+               <legend class="section-bigger-title">Send message</legend>
                <textarea class="message-textarea" name="email" id="email" cols="30"
                   rows="10">Your email address</textarea>
-               <button type="submit">Send message</button>
+               <button class="btn" type="submit">Send message</button>
             </form>
          </div>
       </div>

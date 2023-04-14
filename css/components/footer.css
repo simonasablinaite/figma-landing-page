@@ -1,0 +1,77 @@
+.footer-wrapper {
+  background-color: #f0dcc5;
+}
+
+.footer-description {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #4f4f4f;
+  margin: 26px 0 16px 0;
+  width: 90%;
+}
+
+.copyright-section {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+
+.copyright-section .second {
+  margin-top: 8px;
+}
+
+.social-icons-list {
+  display: flex;
+  margin: 20px 0 48px 0;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.social-icons-list li {
+  background-color: #e2d2bb;
+  padding: 7px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 20px;
+  color: #647b64;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.references {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.references .companys-ref a,
+.references .supports-ref a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+textarea {
+  resize: none;
+}
+.message-textarea {
+  padding: 12px 0 0 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+.form-wrapper button {
+  margin-top: 28px;
+  width: 285px;
+}
