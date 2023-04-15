@@ -1,4 +1,6 @@
 .footer-wrapper {
+  display: flex;
+  flex-direction: column;
   background-color: #f0dcc5;
   margin-top: 65px;
 }

@@ -9,8 +9,23 @@
   gap: 26px;
 }
 
+.clients-section-top-side {
+  display: flex;
+  justify-content: space-between;
+}
+
 .arrows {
   display: none;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.arrows .right-arrow {
+  background-color: #647b64;
+  padding: 22px;
+  border-radius: 50%;
+  align-items: center;
+  margin-left: 35px;
 }
 
 .card-top-side {

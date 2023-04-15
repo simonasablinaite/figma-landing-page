@@ -30,3 +30,64 @@
     flex-direction: column;
   }
 }
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .navigation {
+    display: flex;
+  }
+
+  .hero-half-girl {
+    display: none;
+  }
+  .hero-all-girl {
+    display: flex;
+  }
+  .stores {
+    display: flex;
+    align-items: center;
+  }
+  .stores .text-elements-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+  }
+  .services-cards-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .services-cards-wrapper .card:nth-child(3) {
+    display: grid;
+  }
+  .conversation {
+    margin: 90px 0 0 0px;
+  }
+  .conversation-image img {
+    width: 347px;
+    height: 310px;
+  }
+  .conversation .text-elements-group .section-paragraph {
+    width: 50%;
+  }
+  .arrows {
+    display: flex;
+  }
+  .footer-wrapper {
+    gap: 30px;
+    width: calc(960px - 30px);
+    display: flex;
+    flex-direction: row;
+  }
+  .socials-column {
+    width: calc((100% - 20px) / 4);
+  }
+  .social-icons-list {
+    gap: 15px;
+  }
+}

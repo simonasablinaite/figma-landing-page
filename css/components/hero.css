@@ -25,4 +25,7 @@
 
 .hero-all-girl {
   display: none;
+  width: 290px;
+  height: 510px;
+  margin-right: 30px;
 }
