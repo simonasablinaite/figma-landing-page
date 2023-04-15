@@ -8,7 +8,7 @@
   .stores .text-elements-group {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
   .stores .text-elements-group .section-paragraph {
     width: 65%;
@@ -90,4 +90,64 @@
   .social-icons-list {
     gap: 15px;
   }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  .btn {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .hero .text-elements-group {
+    width: 50%;
+  }
+  .hero-title {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 24px;
+  }
+  .hero-paragraph {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 40px;
+    width: 80%;
+  }
+  .section-smaller-title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .section-bigger-title {
+    font-size: 41px;
+    line-height: 45px;
+  }
+  .section-paragraph {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 40px;
+  }
+  .card-content .card-icon {
+    width: 48px;
+  }
+  .card-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .card-paragraph {
+    font-size: 13px;
+    line-height: 17px;
+    width: 50%;
+  }
+  .client-card-content .card-top-side .card-title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .client-description {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 1400px) {
 }
