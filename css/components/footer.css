@@ -1,5 +1,6 @@
 .footer-wrapper {
   background-color: #f0dcc5;
+  margin-top: 65px;
 }
 
 .socials-column {
@@ -36,10 +37,12 @@
 }
 
 .social-icons-list li {
+  display: flex;
   background-color: #e2d2bb;
-  padding: 7px;
+  padding: 10px;
   border-radius: 50%;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-title {
@@ -48,6 +51,7 @@
   font-weight: 500;
   margin-bottom: 24px;
 }
+
 .references {
   display: flex;
   flex-direction: row;
