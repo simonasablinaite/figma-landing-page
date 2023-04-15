@@ -1,11 +1,7 @@
-.services {
-  margin-left: 20px;
-}
 .services-cards-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
-  width: calc((100% - 36px));
 }
 
 .services .text-elements-group {

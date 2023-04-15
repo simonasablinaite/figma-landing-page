@@ -1,6 +1,7 @@
 /* BASE */
 @import "./base/reset.css";
 @import "./base/base.css";
+
 /* COMPONENTS */
 @import "./components/header.css";
 @import "./components/hero.css";
