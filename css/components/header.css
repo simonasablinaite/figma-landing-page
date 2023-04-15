@@ -1,3 +1,7 @@
+.header {
+  padding-right: 32px;
+}
+
 .header-wrapper {
   display: flex;
   justify-content: space-between;

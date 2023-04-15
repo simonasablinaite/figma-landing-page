@@ -18,9 +18,13 @@
 }
 
 .cards-wrapper .card-content .card-icon {
-  background-color: rgb(221, 40, 12);
+  background-color: rgb(251, 248, 248);
   border-radius: 3px;
   padding: 5px;
+}
+
+.cards-wrapper .card-content .card-icon.first-icon {
+  background-color: #647b64;
 }
 
 .card-title {

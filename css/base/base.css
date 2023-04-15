@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  padding: 20px 40px;
+  padding: 40px 32px 0 32px;
 }
 
 .align-center {
@@ -27,15 +27,15 @@
 }
 
 .btn::after {
-  content: url("../../img/arrow-right.svg");
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 12px;
+  right: 20px;
+  content: url("../../img/arrow-right.svg");
 }
 
 .text-elements-group .btn svg {
   position: absolute;
-  top: 12px;
+  top: 13px;
   right: 18px;
 }
 
