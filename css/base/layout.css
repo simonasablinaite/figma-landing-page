@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+  .hero-paragraph {
+    width: 55%;
+  }
+  .stores .text-elements-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stores .text-elements-group .section-paragraph {
+    width: 65%;
+  }
+  .conversation {
+    margin: 90px 0 0 -130px;
+  }
+  .references {
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+  }
+  .references .companys-ref {
+    display: flex;
+    flex-direction: column;
+  }
+  .references .supports-ref {
+    display: flex;
+    flex-direction: column;
+  }
+}
