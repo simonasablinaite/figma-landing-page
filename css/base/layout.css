@@ -1,5 +1,7 @@
 @media (min-width: 768px) {
   .container {
+    margin-left: auto;
+    margin-right: auto;
     width: 720px;
   }
   .hero-paragraph {
@@ -14,7 +16,7 @@
     width: 65%;
   }
   .conversation {
-    margin: 90px 0 0 -130px;
+    margin: 90px 0 90px -130px;
   }
   .references {
     display: flex;
@@ -66,7 +68,7 @@
     display: grid;
   }
   .conversation {
-    margin: 90px 0 0 0px;
+    margin: 90px 0 90px 45px;
   }
   .conversation-image img {
     width: 347px;
@@ -102,6 +104,10 @@
   }
   .hero .text-elements-group {
     width: 50%;
+  }
+  .conversation-image {
+    width: 563px;
+    height: 545px;
   }
   .hero-title {
     font-size: 48px;
